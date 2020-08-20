@@ -6,4 +6,7 @@
 # “publish” is the directory to publish (relative to the root of your repo).
 
 [build]
-publish = "static"
+    publish = "static"
+[[redirects]]
+    from = "/"
+    to = "/index.html"
