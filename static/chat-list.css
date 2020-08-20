@@ -117,6 +117,10 @@
     justify-content: space-between;
 }
 
+.chat-description__chosen {
+    background-color: #E4EDFD;
+}
+
 .chat-message {
     color: #999999;
     max-width: 200px;
