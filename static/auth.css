@@ -1,0 +1,105 @@
+.auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form {
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 340px;
+    height: 460px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.auth-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.input-title {
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: #999999;
+    display: block;
+}
+
+.error-message {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #FF2F2F;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    height: 37px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 0.3rem 0;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+    outline: none;
+}
+
+.buttons button:active {
+    transform: scale(0.99);
+}
+
+.auth-button {
+    background: #2062C5;
+    color: #FFFFFF;
+}
+
+.create-button {
+    background: #FFFFFF;
+    color: #3369F3;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.inputs input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #3369F3;
+}
+
+.inputs input::placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+}
+
+.inputs .input_error::placeholder {
+    color: #FF2F2F;
+}

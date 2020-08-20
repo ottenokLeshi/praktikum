@@ -1,0 +1,162 @@
+.return-button {
+    height: 100vh;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFBFB;
+}
+
+.arrow-wrapper {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 1rem;
+    background: #3369F3;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-wrapper:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 9px;
+    border: 1px solid #FFFFFF;
+}
+
+.return-button-arrow {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow__left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.settings-view {
+    display: flex;
+    flex-direction: row;
+}
+
+.settings {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 25px 0;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    display: block;
+    background-color: #EFEFEF;
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.custom-border {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.user-name {
+    margin-top: 2rem;
+}
+
+.settings-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.settings-inputs .input-title {
+    position: absolute;
+}
+
+.settings-inputs input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding-left: 4rem;
+    text-align: end;
+    width: calc(100% - 4rem);
+}
+
+.settings-inputs label {
+    margin: 0.7rem 0;
+    width: 100%;
+}
+
+.settings-inputs input::placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #999999;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.buttons button {
+    height: 37px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 0.3rem 0;
+    text-align: start;
+    background: transparent;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+    outline: none;
+}
+
+.buttons button:active {
+    transform: scale(0.99);
+}
+
+.edit-button {
+    color: #3369F3;
+}
+
+.exit-button {
+    color: #FF0000;
+}
+
+.buttons .save-button {
+    background-color: #3369F3;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+}

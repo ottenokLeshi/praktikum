@@ -1,0 +1,174 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conversation-icon {
+    border-radius: 50%;
+    display: block;
+    background-color: #EFEFEF;
+    width: 50px;
+    height: 50px;
+}
+
+.conversation-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.conversation-user-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.3rem 1rem;
+}
+
+.conversation-menu {
+    font-size: 27px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.conversation-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conversation-footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+.conversation-footer-search {
+    margin: 0.5rem 0;
+    flex-grow: 1;
+}
+
+.conversation-footer-search input {
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 14px;
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.conversation-footer-search input:hover,
+.conversation-footer-search input:focus {
+    outline: none;
+}
+
+.conversation-footer-search input::placeholder {
+    color: #C4C4C4;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.conversation-footer-button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 1rem;
+    background: #3369F3;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+    align-self: center;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversation-footer-arrow {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.message-time-arrow {
+    border: solid #3369F3;
+    margin-right: 4px;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px 1px;
+    transform: rotate(45deg);
+}
+
+.message-time-arrow-repeater {
+    border: solid #3369F3;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px 0;
+    transform: rotate(45deg);
+}
+
+.conversation-footer-button:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.conversation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.conversation-message-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.conversation-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    margin: 0.45rem 0.7rem;
+    background-color: #E4EDFD;
+    border-radius: 20px 20px 0 20px;
+}
+
+.conversation-message-text {
+    margin-right: 1rem;
+}
+
+.conversation-message-text p {
+    margin: 0;
+}
+
+.conversation-message-time {
+    position: relative;
+    font-size: 0.65rem;
+    color: #3369F3;
+}
+
+.conversation-message__opposite {
+    justify-content: flex-start;
+}
+
+.conversation-message__opposite .conversation-message {
+    border-radius: 20px 20px 20px 0;
+}
