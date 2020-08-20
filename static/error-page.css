@@ -1,0 +1,27 @@
+.error-code {
+    background-color: #2062C5;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-code-number {
+    position: absolute;
+    font-size: 20rem;
+    line-height: 33rem;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.return-link {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    align-self: flex-end;
+    margin-bottom: 7rem;
+}
